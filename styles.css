@@ -334,10 +334,11 @@ nav a:hover {
     min-height: 60vh;
   }
   .hero-overlay {
-    width: min(100%, 100%);
-    padding: 1.4rem 1rem;
+    width: min(86%, 560px);
+    padding: 1.2rem 1rem;
     background: rgba(255, 250, 247, 0.78);
-    border: 1px solid rgba(31, 26, 23, 0.06);
+    border: 1px solid rgba(31, 26, 23, 0.08);
+    margin: 0 auto;
   }
   .hero h1 {
     font-size: clamp(1.9rem, 7vw, 2.5rem);
