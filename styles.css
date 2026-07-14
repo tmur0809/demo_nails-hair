@@ -327,12 +327,17 @@ nav a:hover {
     width: 100%;
     justify-content: center;
   }
+  .site-header .button-primary {
+    display: none;
+  }
   .hero {
-    min-height: auto;
+    min-height: 60vh;
   }
   .hero-overlay {
     width: min(100%, 100%);
-    padding: 1.6rem 1.2rem;
+    padding: 1.4rem 1rem;
+    background: rgba(255, 250, 247, 0.78);
+    border: 1px solid rgba(31, 26, 23, 0.06);
   }
   .hero h1 {
     font-size: clamp(1.9rem, 7vw, 2.5rem);
@@ -353,9 +358,6 @@ nav a:hover {
   }
   .hero-actions .button {
     width: 100%;
-  }
-  .site-header .button-primary {
-    width: auto;
   }
   nav a {
     flex: 1 1 auto;
