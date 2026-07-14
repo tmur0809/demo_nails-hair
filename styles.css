@@ -351,11 +351,13 @@ nav a:hover {
   .site-footer {
     padding: 1.25rem 1rem;
   }
-  .button-primary,
-  .button-secondary {
+  .hero-actions .button {
     width: 100%;
   }
-  .nav a {
+  .site-header .button-primary {
+    width: auto;
+  }
+  nav a {
     flex: 1 1 auto;
     text-align: center;
   }
